@@ -20,11 +20,8 @@ LGAI-EXAONE의 공개 모델을 기반으로, 한국어 의료 QA 성능을 극�
 HAI_Project/
 ├── README.md                   # 프로젝트 설명서
 ├── S_F2.py                     # 파인튜닝 메인 스크립트
-├── preprocess_medical.py      # TL 구조 전처리 스크립트
-├── requirements.txt           # 주요 패키지 정의
-└── docs/
-    └── data_structure.md      # TL QA 트리 구조 설명
-```
+└──preprocess_medical.py      # TL 구조 전처리 스크립트
+
 
 ---
 

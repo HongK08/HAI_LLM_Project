@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://huggingface.co/datasets/LGAI-EXAONE/logo/resolve/main/exaone_logo.png" alt="EXAONE Logo" width="250"/>
-</p>
-
 # HAI\_Project: Medical QA with EXAONE 3.5 7.8B-Instruct
 
 본 프로젝트는 EXAONE 3.5 7.8B-Instruct 모델을 기반으로 한 한국어 의료 QA 파인튜닝 프로젝트입니다.

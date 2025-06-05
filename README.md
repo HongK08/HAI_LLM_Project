@@ -174,4 +174,3 @@ print(tokenizer.decode(outputs[0], skip_special_tokens=True))
 
 - (HongKi08)
 - 소속: HAI
-- 지도교수 : 원유석

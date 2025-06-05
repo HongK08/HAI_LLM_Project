@@ -20,7 +20,7 @@ LGAI-EXAONE의 공개 모델을 기반으로, 한국어 의료 QA 성능을 극�
 HAI_Project/
 ├── README.md                   # 프로젝트 설명서
 ├── S_F2.py                     # 파인튜닝 메인 스크립트
-└── preprocess_medical.py      # TL 구조 전처리 스크립트
+└── preprocess_medical.py       # TL 구조 전처리 스크립트
 ```
 
 ---
@@ -43,7 +43,7 @@ HAI_Project/
 
 ---
 
-## 🗂️ AI Hub TL 트리 구조 (원천 데이터 설명)
+## 🗂️ AI Hub 데이터 트리 구조 (원천 데이터 설명)
 
 본 프로젝트에서 사용된 의료 QA 데이터는 AI Hub의 TL 구조를 기반으로 하며, 아래와 같은 디렉토리 구조를 가집니다:
 
@@ -191,4 +191,3 @@ safetensors
 - (HongKi08)
 - 소속: HAI
 - 지도교수 : 원유석
-- 

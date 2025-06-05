@@ -173,7 +173,7 @@ peft
 datasets
 accelerate
 bitsandbytes
-torch==2.3.0
+torch==2.7.0
 sentencepiece
 safetensors
 ```
@@ -188,5 +188,7 @@ safetensors
 
 ## 📋 작성자
 
-- 프로젝트 총괄: PM & LLM 개발 책임자 (HongKi08)
-- 소속: 대학원 연구실 기반 HAI 프로젝트 팀
+- (HongKi08)
+- 소속: HAI
+- 지도교수 : 원유석
+- 

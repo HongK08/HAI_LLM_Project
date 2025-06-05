@@ -172,5 +172,5 @@ print(tokenizer.decode(outputs[0], skip_special_tokens=True))
 
 ## 📋 작성자
 
-- (HongKi08)
+- [@HongK08](https://github.com/HongK08)
 - 소속: HAI

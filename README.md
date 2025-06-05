@@ -163,5 +163,6 @@ print(tokenizer.decode(outputs[0], skip_special_tokens=True))
 
 ## 📋 작성자
 
-- PM & LLM 개발 책임자: **HongKi08**  
-- 소속: 대학원 연구실 기반 HAI 프로젝트 팀
+- **HongKi08**  
+- 소속: HAI
+- 지도교수 : 원유석

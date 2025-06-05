@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://huggingface.co/datasets/LGAI-EXAONE/logo/resolve/main/exaone_logo.png" alt="EXAONE Logo" width="250"/>
+</p>
+
 # HAI\_Project: Medical QA with EXAONE 3.5 7.8B-Instruct
 
 본 프로젝트는 EXAONE 3.5 7.8B-Instruct 모델을 기반으로 한 한국어 의료 QA 파인튜닝 프로젝트입니다.
@@ -136,7 +140,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 model = AutoModelForCausalLM.from_pretrained("HongKi08/HAI_Project")
 tokenizer = AutoTokenizer.from_pretrained("HongKi08/HAI_Project")
 
-prompt = "고혈압 환자가 피해야 할 음식은 무엇인가요?"
+prompt = "44세 여성이 혈당의 상승 하강 폭이 불규칙하며 신체 말단에 감각이 소실되고 돌아오는 현상이 있습니다. 이는 어떤 질병입니까?"
 inputs = tokenizer(prompt, return_tensors="pt").to("cuda")
 
 outputs = model.generate(**inputs, max_new_tokens=32)

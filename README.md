@@ -164,22 +164,6 @@ print(tokenizer.decode(outputs[0], skip_special_tokens=True))
 ```
 
 ---
-
-## 📦 주요 종속 패키지 (`requirements.txt` 발췌)
-
-```
-transformers
-peft
-datasets
-accelerate
-bitsandbytes
-torch==2.7.0
-sentencepiece
-safetensors
-```
-
----
-
 ## 📁 Hugging Face 저장소
 
 - 모델 업로드 위치: [HongKi08/HAI_Project](https://huggingface.co/HongKi08/HAI_Project)

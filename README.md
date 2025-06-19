@@ -134,7 +134,8 @@ print(tokenizer.decode(outputs[0], skip_special_tokens=True))
 
 ### 테스트 결과 스크린샷
 
-![의료 QA 모델 추론 예시](./621fc72b-922c-4181-b25f-eda499b9f048.png)
+![Uploading Screenshot from 2025-06-19 12-29-17.png…]()
+
 
 > 추락 이후 머리 통증을 호소하는 사례에 대해, 경막하 출혈 및 경막외 출혈을 정확히 예측하고 의학적 근거까지 제시한 실제 응답 예시입니다.
 
